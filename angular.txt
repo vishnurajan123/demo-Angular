@@ -1,0 +1,31 @@
+Angular-Frontend Technology : Single page application
+------------------------------------------------------
+
+Basix commands
+----------------
+
+1.to create projects : ng new project-name
+2.to run projects : ng serve
+3.to create a component : ng g c component-name
+
+Basic features
+-------------------
+
+1.Module : used to hold multiple Components and helps import packages to design Page - root module :AppModule
+2.Components : is a part of ui , consists of html css and its ts files and its selector to use it in anothor page - Root Component -AppComponent
+3.Decorater : to add meta data (data inside anothor data ), indicated using @ 
+4.Selectors : to display component design in anothor html file 
+5.Data Binding : Data sharing within a component (html,ts file)
+    - One way Binding : 
+            -component to view
+                -String Interpolation : use {{prperty-name}} in html page
+                -Property binding : bind class property with html tag attribute
+                    
+            -view to component
+    - Two way binding
+
+6.To setup path for component 
+    -define routes in routing.Module ts file
+        -syntax:{path:'',component:component-name}
+        -use router-outlet selector ijn root component
+7.
